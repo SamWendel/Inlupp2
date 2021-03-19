@@ -10,10 +10,10 @@ function render(beers) {
 
     beers.forEach((beers) => { 
         output += `
-        <div class="card col-sm-4" style="width: 18rem; background-color: #DCDCDC;">
+        <div class="div-random-main" style="width: 18rem; background-color: #DCDCDC;">
         <img style="width: 100px; height: auto" class="img-random" src="${beers.image_url}">
-        <h3>${beers.name}</h3>
-        <div>${beers.tagline}</div>
+        <h3 class="h3-random-name">${beers.name}</h3>
+        <div class="div-random-tagline">${beers.tagline}</div>
         </div>`;
     });
 

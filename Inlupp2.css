@@ -1,60 +1,89 @@
 /* Header/Logo Title */
 .header {
-  padding: 30px;
-  text-align: center;
-  background-image: url(images/wallhaven-4l1pxl.jpg);
-}
-
-.bgcolor{
-    background-image: url(images/wallhaven-lqpqdq.jpg);
-    background-size: cover;
-}
-
-.center{
+    padding: 30px;
     text-align: center;
-}
-
-.right{
-    text-align: right;
-}
-
-.img-random{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 50%;
-}
-
-h3{
-    font-family: arial;
-}
-
-a.button1{
-    background-color: #FDC329;
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.1em solid black;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:black;
-    text-align:center;
-    transition: all 0.2s;
-    }
-    a.button1:hover{
-    color:#FDC329;
-    background-color:black;
-    border:0.1em solid #FDC329;
-    }
-    @media all and (max-width:30em){
-     a.button1{
-    display:block;
-    margin:0.4em auto;
-    }
-}
-
+    background-image: url(images/wallhaven-4l1pxl.jpg);
+  }
+  
+  .bgcolor{
+      background-image: url(images/wallhaven-lqpqdq.jpg);
+      background-size: cover;
+  }
+  
+  .center{
+      text-align: center;
+  }
+  
+  .right{
+      text-align: right;
+  }
+  
+  .div-random-main{ 
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+  }
+  
+  .img-random{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      width: 50%;
+  }
+  
+  .h3-random-name{
+      font-weight: bold;
+      text-align: center;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+  
+  .div-random-tagline{
+      font-weight: bold;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+  
+  .div-random-reload{
+      margin-bottom: 2rem;
+  }
+  
+  h3{
+      font-family: arial;
+  }
+  
+  a.button1{
+      background-color: #FDC329;
+      display: inline-block;
+      padding:0.35em 1.2em;
+      border:0.1em solid black;
+      margin:0 0.3em 0.3em 0;
+      border-radius:0.12em;
+      box-sizing: border-box;
+      text-decoration:none;
+      font-family:'Roboto',sans-serif;
+      font-weight: bold;
+      color:black;
+      text-align:center;
+      transition: all 0.2s;
+      }
+      a.button1:hover{
+      color:#FDC329;
+      background-color:black;
+      border:0.1em solid #FDC329;
+      }
+      @media all and (max-width:30em){
+       a.button1{
+      display:block;
+      margin:0.4em auto;
+      }
+  }
+  
+  
