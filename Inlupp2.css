@@ -2,11 +2,18 @@
 .header {
     padding: 30px;
     text-align: center;
-    background-image: url(images/wallhaven-4l1pxl.jpg);
+    background-image: url(images/header.jpg);
+  }
+
+  body, html {
+    height: 100%;
   }
   
   .bgcolor{
-      background-image: url(images/wallhaven-lqpqdq.jpg);
+      background-image: url(images/background.jpg);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
       background-size: cover;
   }
   
@@ -84,6 +91,16 @@
       display:block;
       margin:0.4em auto;
       }
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url(images/footer.jpg);
+    color: rgb(255, 255, 255);
+    text-align: center;
   }
   
   
