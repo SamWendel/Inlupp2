@@ -23,12 +23,12 @@ function render(beers) {
          
         output += `
         <div class="div-random-main" style="width: 18rem; background-color: #DCDCDC;">
-        <img style="width: 100px; height: auto" class="img-random" src="${tempImage}">
+        <img style="width: 75px; height: auto" class="img-random" src="${tempImage}">
         <h3 class="h3-random-name">${beers.name}</h3>
         <div class="div-random-tagline">${beers.tagline}</div>
         <button onclick="myFunction()">Tell me more!</button>
         <div class="hideAtStart" id="myDIV">
-        <p class="card-text">${beers.description}</p>
+        <p style="margin-right: 1rem; margin-left: 1rem; text-align: left" class="card-text">${beers.description}</p>
         </div>
         </div>`;
     });
