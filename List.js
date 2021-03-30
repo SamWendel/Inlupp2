@@ -11,7 +11,7 @@ function render(beers) {
     beers.forEach((beers) => { 
         output += `
         <div class="card col-sm-4" style="width: 18rem; background-color: #DCDCDC;">
-        <img style="width: 100px; height: auto" src=${beers.image_url} class="card-img-top img-random" alt="...">
+        <img style="width: 100px; height: auto; padding-top: 1rem" src=${beers.image_url} class="card-img-top img-random" alt="...">
         <div class="card-body">
           <h5 class="card-title">${beers.name}</h5>
           <p class="card-text">${beers.tagline}</p>

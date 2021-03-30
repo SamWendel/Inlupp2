@@ -103,4 +103,8 @@
     text-align: center;
   }
   
+  .hideAtStart {
+      display: none;
+      margin-top: 1rem;
+  }
   

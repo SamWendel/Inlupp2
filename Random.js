@@ -26,8 +26,23 @@ function render(beers) {
         <img style="width: 100px; height: auto" class="img-random" src="${tempImage}">
         <h3 class="h3-random-name">${beers.name}</h3>
         <div class="div-random-tagline">${beers.tagline}</div>
+        <button onclick="myFunction()">Tell me more!</button>
+        <div class="hideAtStart" id="myDIV">
+        <p class="card-text">${beers.description}</p>
+        </div>
         </div>`;
     });
 
     document.getElementById("output").innerHTML = output;
 }
+
+
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
